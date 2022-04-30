@@ -13,7 +13,6 @@
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="model.services.OnlinePaymentServices"/>
     <fullyQualifiedTypeName name="java.util.Locale"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="model.entities.Contract"/>
     <fullyQualifiedTypeName name="model.services.ContractService"/>
     <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
@@ -21,4 +20,10 @@
     <fullyQualifiedTypeName name="java.util.Calendar"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="model.entities.Installiment"/>
+    <fullyQualifiedTypeName name="model.entities.Shape"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="model.entities.Circle"/>
+    <fullyQualifiedTypeName name="model.enums.Color"/>
+    <fullyQualifiedTypeName name="model.entities.Rectangle"/>
+    <fullyQualifiedTypeName name="model.entities.AbstractShape"/>
 </qualifiedTypeNameHistroy>
