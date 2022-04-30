@@ -29,10 +29,10 @@ public class Program {
 		Contract contract = new Contract(number, date, totalValue);
 		
 		System.out.print("Enter number of installments: ");
-		int installments = sc.nextInt();
+		int months = sc.nextInt();
 		
 		ContractService contractService = new ContractService(new PayPalService());
-		contractService.processContract(contract, installments);
+		contractService.processContract(contract, months);
 		
 		System.out.println("Installments: ");
 		
