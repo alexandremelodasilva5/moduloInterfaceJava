@@ -13,20 +13,21 @@ import entities.Employee;
 public class Program {
 
 	public static void main(String[] args) {
-		List<String> list = new ArrayList<>();
+		List<Employee> list = new ArrayList<>();
 		File path = new File("C:\\Users\\Alex\\Desktop\\in.txt");
 		
 		try(BufferedReader br = new BufferedReader(new FileReader(path))){
-			String name = br.readLine();
-			while(name != null) {
-				list.add(name);
-				name = br.readLine();
+			String emp = br.readLine();
+			while(emp != null) {
+				String[] empFields = emp.split(",");
+				list.add(new Employee(empFields[0], Double.parseDouble(empFields[1])));
+				emp = br.readLine();
 			}
 			
 			Collections.sort(list);
 			
-			for(String s: list) {
-				System.out.println(s);
+			for(Employee e: list) {
+				System.out.println(e);
 			}
 			
 		}catch(IOException e) {
