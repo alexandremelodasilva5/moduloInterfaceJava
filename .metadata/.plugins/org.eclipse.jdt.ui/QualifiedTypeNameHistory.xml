@@ -26,4 +26,7 @@
     <fullyQualifiedTypeName name="model.enums.Color"/>
     <fullyQualifiedTypeName name="model.entities.Rectangle"/>
     <fullyQualifiedTypeName name="model.entities.AbstractShape"/>
+    <fullyQualifiedTypeName name="entities.ComboDevice"/>
+    <fullyQualifiedTypeName name="entities.ConcretePrinter"/>
+    <fullyQualifiedTypeName name="entities.ConcreteScanner"/>
 </qualifiedTypeNameHistroy>
